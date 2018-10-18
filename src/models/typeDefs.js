@@ -3,8 +3,6 @@
 //type defenitions (schema)
 const typeDefs = `
     type Query {
-        me: User!
-        post: Post!
         users(query: String): [User!]!
         posts(query: String): [Post!]!
         comments(query: String): [Comment!]!
