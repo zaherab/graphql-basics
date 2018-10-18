@@ -104,3 +104,6 @@ mutation{
   }
 }
 ```
+And i will keep the rest of queries for you :sunglasses::thumbsup::thumbsup::thumbsup:
+
+Good Luck:v::v::v:

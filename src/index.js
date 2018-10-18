@@ -6,8 +6,6 @@ import User from './resolvers/User'
 import Post from './resolvers/Post'
 import Comment from './resolvers/Comment'
 
-
-
 //create the server for GraphQL
 const server = new GraphQLServer({
     typeDefs: './src/schema.graphql',
