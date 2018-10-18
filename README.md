@@ -4,7 +4,7 @@ Use `npm install` to install all dependencies form package.json.
 
 Use `npm start` to  start the server on localhost:4000.
 
-##### Some basic Graphql commands are:
+##### Some basic commands are:
 
 * To fetch all users details
 ```
