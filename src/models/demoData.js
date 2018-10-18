@@ -1,5 +1,5 @@
 //Demo user data
-const users = [{
+let users = [{
         id: '1',
         name: 'zaher',
         email: 'zaher@example.com',
@@ -18,7 +18,7 @@ const users = [{
     },
 
 ]
-const posts = [{
+let posts = [{
         id: '1',
         title: 'Cillum tempor fugiat veniam aute deserunt culpa in commodo sit.',
         body: 'Proident Lorem commodo ad voluptate pariatur ea nostrud minim. Id id reprehenderit do ipsum. Duis adipisicing est ullamco irure est tempor in enim aliquip id. Aliqua nisi anim elit laboris. Magna qui sunt tempor in est ea minim est mollit sit Lorem sint.',
@@ -41,7 +41,7 @@ const posts = [{
     },
 
 ]
-const comments = [{
+let comments = [{
         id: '1',
         text: 'Ipsum culpa consectetur fugiat commodo ullamco non ipsum culpa ut enim voluptate quis.',
         author: '2',
