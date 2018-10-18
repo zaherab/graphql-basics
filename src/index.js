@@ -1,11 +1,26 @@
 import { GraphQLServer } from 'graphql-yoga'
-import { typeDefs } from './models/typeDefs'
-import { resolvers } from './resolvers'
+import db from './db'
+import Query from './resolvers/Query'
+import Mutation from './resolvers/Mutation'
+import User from './resolvers/User'
+import Post from './resolvers/Post'
+import Comment from './resolvers/Comment'
+
+
 
 //create the server for GraphQL
 const server = new GraphQLServer({
-    typeDefs,
-    resolvers
+    typeDefs: './src/schema.graphql',
+    resolvers: {
+        Query,
+        Mutation,
+        User,
+        Post,
+        Comment
+    },
+    context: {
+        db
+    }
 })
 
 server.start(() => {

@@ -1,8 +1,4 @@
-//Scalar types : String, Int, Float, Boolean, ID
-
-//type defenitions (schema)
-const typeDefs = `
-    type Query {
+type Query {
         users(query: String): [User!]!
         posts(query: String): [Post!]!
         comments(query: String): [Comment!]!
@@ -57,7 +53,3 @@ const typeDefs = `
         author: User!
         post: Post!
     }
-`
-export {
-    typeDefs
-}
