@@ -61,6 +61,16 @@ mutation {
   }
 }
 ```
+* To delete user using **Mutation**
+```
+mutation {
+  deleteUser(id:"2"){
+    id
+    name
+    email
+  }
+}
+```
 * To create posts using **Mutation**
 ```
 mutation {
