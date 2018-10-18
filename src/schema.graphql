@@ -15,6 +15,10 @@ type Query {
         deleteComment(id: ID!): Comment!
         updateComment(id:ID!, data: UpdateCommentInput!): Comment!
     }
+    type Subscription {
+        comment(postId: ID!): Comment!
+        post: Post!
+    }
 
     input CreateUserInput {
         name: String!
@@ -50,7 +54,7 @@ type Query {
     input UpdateCommentInput {
         text: String
     }
-    
+
     type User {
         id: ID!
         name: String!

@@ -1,4 +1,5 @@
 # Graphql basics
+[![npm version](https://badge.fury.io/js/graphql-yoga.svg)](https://badge.fury.io/js/graphql-yoga)
 
 Use `npm install` to install all dependencies form package.json.
 
