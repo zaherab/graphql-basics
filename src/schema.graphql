@@ -90,6 +90,7 @@ type Query {
         mutation: MutationType!
         data: Post!
     }
+    
     type CommentSubscriptionPayload {
         mutation: MutationType!
         data: Comment!
